@@ -12,4 +12,4 @@ instead of rewriting long codes, it can be run with short encodings.
 
 ## File in OOP project
 [Class-Constructor](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Object_Oriented_Programming/class_constructor)
-[Encapsülation](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Object_Oriented_Programming/Encaps%C3%BClation)
+<br> [Encapsülation](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Object_Oriented_Programming/Encaps%C3%BClation)
