@@ -8,3 +8,7 @@
 instead of rewriting long codes, it can be run with short encodings.
 <br> 2- Dreatly reduces the waste of time.
 <br> 3- If you want to change your project , you dont write all project code . .You can change class code 
+
+
+
+[Class-Constructor](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Object_Oriented_Programming/class_constructor)
