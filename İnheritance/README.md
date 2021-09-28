@@ -1,7 +1,8 @@
 ## What is inheritance ?
 <br> Inheritance in biology is the same as inheritance in software.
-<br> In software, we add features to subclasses through parentclasses.
-<br> parentclasses must have common properties to inherit.
+ In software, we add features to subclasses through parentclasses.
+parentclasses must have common properties to inherit.
+It is the process by which object of one class aquire the properties or features of objects of another class. The concept of inheritance provide the idea of reusability means we can add additional features to an existing class without Modifying it. This is possible by driving a new class from the existing one. The new class will have the combined features of both the classes. Example: Robine is a part of the class flying bird which is again a part of the class bird.
 
  ```
  public class Category : parentsclass  // parentsclass is ancestor of the category.We added it as a using system 
