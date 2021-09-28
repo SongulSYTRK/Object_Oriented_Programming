@@ -1,7 +1,9 @@
 ## Object_Oriented_Programming
 
 ## What is OOP (Object-Oriented Programming)?
-<br> We can created  our object we need  into application .We defined the object into class . We dont write again and again through OOP .We create an object from the object ptototype (instance)
+Object-oriented programming (OOP) is the core ingredient of the .NET framework. We can created  our object we need  into application .We defined the object into class . We dont write again and again through OOP .We create an object from the object ptototype (instance)
+  **Object**
+Object is a collection of number of entities. Objects take up space in the memory. Objects are instances of classes. When a program is executed , the objects interact by sending messages to one another. Each object contain data and code to manipulate the data. Objects can interact without having know details of each others data or code.
 
 ## What are the benefits of oop?
 <br> 1-Classes are created once
