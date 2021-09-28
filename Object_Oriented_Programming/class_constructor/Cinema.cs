@@ -36,7 +36,9 @@ namespace Constructor_Example
             this.TotalySeat = seat;
             this.salonNo = salonNo;
             this.Money = moneys;
-            MessageBox.Show($"seats: {this.TotalySeat} \nsalon this.salonNo");
+
+
+            MessageBox.Show($"seats: {this.TotalySeat} \nsalon {this.salonNo} \nmoney {this.Money}");
 
 
 

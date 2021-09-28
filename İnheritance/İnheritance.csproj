@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A2051B08-910C-4722-9EB1-4238F924B1F4}</ProjectGuid>
+    <ProjectGuid>{73CC8C5E-6FAB-4BC1-9533-B798F094D5AC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Object_Oriented_Programming</RootNamespace>
-    <AssemblyName>Object_Oriented_Programming</AssemblyName>
+    <RootNamespace>İnheritance</RootNamespace>
+    <AssemblyName>İnheritance</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="class_constructor\Cinema.cs" />
-    <Compile Include="class_constructor\Form1.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="class_constructor\Form1.Designer.cs">
+    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="class_constructor\Form1.resx">
+    <Compile Include="İnheritance\Models\BaseEntity\Base.cs" />
+    <Compile Include="İnheritance\Models\Entities\Iphone.cs" />
+    <Compile Include="İnheritance\Models\Entities\Nokia.cs" />
+    <Compile Include="İnheritance\Models\Entities\samsung.cs" />
+    <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -80,6 +83,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

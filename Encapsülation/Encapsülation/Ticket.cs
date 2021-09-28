@@ -12,7 +12,7 @@ namespace Object_Oriented_Programming.Encapsülation
         private int _TotalySeat; // I don't want to show totalyseat 
         public int Totalyseats
         {
-            get => Totalyseats;
+            get => _TotalySeat;
             set
             {
                 if (value >= 10)
@@ -28,17 +28,18 @@ namespace Object_Oriented_Programming.Encapsülation
             }
         }
         public string salonNo { get; set; }
-        private int _emptySeat;
+
+        private int _emptyseats ;
 
         public int EmptySeats
         {
-            get => EmptySeats;
+            get => _emptyseats;
 
             set
             {
                 if (value >= 1)
                 {
-                    _TotalySeat = value;
+                    _emptyseats = value;
                     MessageBox.Show("You can buy it ");
                 }
                 else

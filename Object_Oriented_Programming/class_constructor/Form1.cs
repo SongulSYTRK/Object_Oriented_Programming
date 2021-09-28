@@ -21,6 +21,7 @@ namespace Object_Oriented_Programming
         private void button2_Click(object sender, EventArgs e)
         {
             Cinema cinema = new Cinema(Convert.ToInt32(txtseat.Text), (txtsalon.Text));
+
             MessageBox.Show($"seats: {cinema.TotalySeat} \nsalon {cinema.salonNo}");
         }
 

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A2051B08-910C-4722-9EB1-4238F924B1F4}</ProjectGuid>
+    <ProjectGuid>{21D1432A-32B6-436D-88CA-BDA43C61D5B1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Object_Oriented_Programming</RootNamespace>
-    <AssemblyName>Object_Oriented_Programming</AssemblyName>
+    <RootNamespace>Encapsülation</RootNamespace>
+    <AssemblyName>Encapsülation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="class_constructor\Cinema.cs" />
-    <Compile Include="class_constructor\Form1.cs">
+    <Compile Include="Encapsülation\encapsülation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="class_constructor\Form1.Designer.cs">
+    <Compile Include="Encapsülation\encapsülation.Designer.cs">
+      <DependentUpon>encapsülation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encapsülation\Ticket.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="class_constructor\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Encapsülation\encapsülation.resx">
+      <DependentUpon>encapsülation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,6 +86,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
