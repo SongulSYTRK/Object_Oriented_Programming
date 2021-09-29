@@ -55,7 +55,7 @@ namespace Abstraction
 
                 };
                
-                Samsung samsung = new Samsung()
+                Samsung samsungg = new Samsung()
                  {
 
                     Brand = txtbrand.Text,
@@ -69,7 +69,7 @@ namespace Abstraction
           user.UserSurname = txtsurname.Text;
 
           user.GetTakeTelephone.Add(iphone);
-          user.GetTakeTelephone.Add(samsung);
+          user.GetTakeTelephone.Add(samsungg);
           user.GetTakeTelephone.Add(nokia);
 
        MessageBox.Show($"information {user.GetTakeTelephone[0].ShowInformation()}\nusername : {user.UserName} \nusersurname : {user.UserSurname} \ngettakenphonemodel :  {user.GetTakeTelephone[0].Model} \nphonebrand:  {user.GetTakeTelephone[0].Brand } \nÇıkardığı ses : {user.GetTakeTelephone[0].CallSound()} \n Unitprice : {user.GetTakeTelephone[0].Unitprice} \n");
