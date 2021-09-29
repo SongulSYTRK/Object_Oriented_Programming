@@ -1,11 +1,10 @@
-﻿using Object_Oriented_Programming.Encapsülation;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Encapsülation
+namespace Abstraction
 {
     static class Program
     {
@@ -17,7 +16,7 @@ namespace Encapsülation
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new encapsülation());
+            Application.Run(new Form1());
         }
     }
 }

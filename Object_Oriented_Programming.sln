@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "İnheritance", "İnheritanc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsülation", "Encapsülation\Encapsülation.csproj", "{21D1432A-32B6-436D-88CA-BDA43C61D5B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{502AA6A8-21B9-412B-BCDE-37E39694E339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{21D1432A-32B6-436D-88CA-BDA43C61D5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21D1432A-32B6-436D-88CA-BDA43C61D5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21D1432A-32B6-436D-88CA-BDA43C61D5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502AA6A8-21B9-412B-BCDE-37E39694E339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502AA6A8-21B9-412B-BCDE-37E39694E339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502AA6A8-21B9-412B-BCDE-37E39694E339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502AA6A8-21B9-412B-BCDE-37E39694E339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
