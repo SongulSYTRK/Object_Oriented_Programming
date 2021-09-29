@@ -10,4 +10,3 @@ When we want external access to any member of the Class, we use encapsulation wh
 
 
 <br> private int _age;    //  we closed access
-
