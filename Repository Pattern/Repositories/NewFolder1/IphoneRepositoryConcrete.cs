@@ -41,18 +41,18 @@ namespace Repository_Pattern.Repositories.NewFolder1
             return FakePhoneData.iphones.ToList();
         }
 
-        public override Iphone   GetIphoneById(Guid id)
+        public override Iphone GetIphoneById(Guid id)
         {
-            Iphone findiphone = new Iphone ();
+            Iphone findiphone = new Iphone();
             foreach (Iphone iphone in FakePhoneData.iphones)
             {
-                if (iphone .Id == new Guid())
+                if (iphone.Id == id)
                 {
-                    findiphone  = iphone ;
+                    findiphone = iphone;
                 }
-               
 
             }
+            return findiphone;
         }
 
         public override void UpdateIphone(Guid Id, string brand, string Model, int unitprice)

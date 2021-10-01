@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository Pattern", "Repository Pattern\Repository Pattern.csproj", "{46FE329C-A1D3-472E-9AEA-36B4BBDBAF6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayToBill_StaticMethod", "PayToBill_StaticMethod\PayToBill_StaticMethod.csproj", "{ECCB3042-8F14-4AA5-A5B0-BEC0C88D172E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{46FE329C-A1D3-472E-9AEA-36B4BBDBAF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46FE329C-A1D3-472E-9AEA-36B4BBDBAF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46FE329C-A1D3-472E-9AEA-36B4BBDBAF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCB3042-8F14-4AA5-A5B0-BEC0C88D172E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCB3042-8F14-4AA5-A5B0-BEC0C88D172E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCB3042-8F14-4AA5-A5B0-BEC0C88D172E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCB3042-8F14-4AA5-A5B0-BEC0C88D172E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

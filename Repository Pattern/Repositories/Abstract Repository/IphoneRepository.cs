@@ -13,7 +13,7 @@ namespace Repository_Pattern.Repositories.Abstract_Repository
         public abstract void DeleteIphone(Guid id);
         public abstract  void UpdateIphone(Guid Id, string brand, string Model, int unitprice);
         public abstract List<Iphone> GetIphone();
-        public abstract void GetIphoneById(Guid id);
+        public abstract Iphone  GetIphoneById(Guid id);
         public abstract void Find(Guid Id, string brand, string Model, int unitprice);
 
     }
