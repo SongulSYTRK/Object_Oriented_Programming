@@ -13,6 +13,7 @@ namespace Repository_Pattern.Repositories.Abstract_Repository
         public abstract void CreateNokia (Guid Id, string brand, string Model, int  unitprice);
         public abstract void UpdateNokia(Guid Id, string brand, string Model, int unitprice);
         public abstract List<Nokia> GetNokia();
+        public abstract Nokia  GetNokiaById(Guid id);
 
     }
 }

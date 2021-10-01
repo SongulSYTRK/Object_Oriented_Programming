@@ -33,6 +33,20 @@ namespace Repository_Pattern.Repositories.NewFolder1
             }
         }
 
+        public override Samsung GetSamsungIdBy(Guid Id)
+        {
+            Samsung findsamsung = new Samsung();
+            foreach (Samsung samsung in FakePhoneData.samsungs)
+            {
+                if (samsung.Id == Id)
+                {
+                    findsamsung = samsung;
+                }
+
+            }
+            return findsamsung;
+        }
+
         public override List<Samsung> GetSamsungs( )
         {
             return FakePhoneData.samsungs.ToList();

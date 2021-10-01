@@ -31,10 +31,25 @@ namespace Repository_Pattern.Repositories.NewFolder1
             }
         }
 
+        
         public override List<Nokia> GetNokia()
         {
             return FakePhoneData.nokias.ToList();
 
+        }
+
+        public override Nokia GetNokiaById(Guid id)
+        {
+            Nokia findnokia = new Nokia();
+            foreach (Nokia nokia in FakePhoneData.nokias)
+            {
+                if (nokia.Id == id)
+                {
+                    findnokia = nokia;
+                }
+
+            }
+            return findnokia;
         }
 
         public override void UpdateNokia(Guid Id, string brand, string Model, int unitprice)

@@ -15,6 +15,7 @@ namespace Repository_Pattern.Repositories.Abstract_Repository
 
         public abstract List<Samsung> GetSamsungs();
 
+        public abstract Samsung GetSamsungIdBy(Guid Id );
 
     }
 }
