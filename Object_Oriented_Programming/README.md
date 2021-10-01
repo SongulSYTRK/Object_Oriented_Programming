@@ -3,7 +3,7 @@
 <br< It is a system that stores variables and methods together.
 <br> Our class need Access Modifiers. If you dont have access modifiers, you dont see properties of class .
 <br>     Access Modifiers(Erişim belirteçleri) 
-<br> 1:Public: You see all solution                                                                                                                                         <br> <br> 2:private :you see this class                                                                                                                                                 <br> 3:internel: If you dont define access modifiers , your objects modifiers internal .you see this project
+<br> 1. Public: You see all solution                                                                                                                                         <br> <br> 2. private :you see this class                                                                                                                                               <br> 3.internel: If you dont define access modifiers , your objects modifiers internal .you see this project
    ```
 public class Computer 
 {
