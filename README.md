@@ -13,7 +13,7 @@ instead of rewriting long codes, it can be run with short encodings.
 
 
 ## File in OOP project
- 1-[Class-Constructor](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Object_Oriented_Programming/class_constructor)
+ 1-[Class-Constructor](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Object_Oriented_Programming)
 <br> 2- [Encapsülation](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Encaps%C3%BClation)
 <br> 3- [İnheritance](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/%C4%B0nheritance)
 <br> 4- [Abstraction](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Abstraction)
