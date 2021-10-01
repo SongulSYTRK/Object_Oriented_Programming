@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object_Oriented_Programming", "Object_Oriented_Programming\Object_Oriented_Programming.csproj", "{A2051B08-910C-4722-9EB1-4238F924B1F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class-Constructor", "Object_Oriented_Programming\Class-Constructor.csproj", "{A2051B08-910C-4722-9EB1-4238F924B1F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "İnheritance", "İnheritance\İnheritance.csproj", "{73CC8C5E-6FAB-4BC1-9533-B798F094D5AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsülation", "Encapsülation\Encapsülation.csproj", "{21D1432A-32B6-436D-88CA-BDA43C61D5B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{502AA6A8-21B9-412B-BCDE-37E39694E339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository Pattern", "Repository Pattern\Repository Pattern.csproj", "{46FE329C-A1D3-472E-9AEA-36B4BBDBAF6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{502AA6A8-21B9-412B-BCDE-37E39694E339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{502AA6A8-21B9-412B-BCDE-37E39694E339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{502AA6A8-21B9-412B-BCDE-37E39694E339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46FE329C-A1D3-472E-9AEA-36B4BBDBAF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FE329C-A1D3-472E-9AEA-36B4BBDBAF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FE329C-A1D3-472E-9AEA-36B4BBDBAF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FE329C-A1D3-472E-9AEA-36B4BBDBAF6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
