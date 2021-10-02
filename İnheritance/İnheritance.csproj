@@ -54,10 +54,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="İnheritance\Models\BaseEntity\Base.cs" />
-    <Compile Include="İnheritance\Models\Entities\Iphone.cs" />
-    <Compile Include="İnheritance\Models\Entities\Nokia.cs" />
-    <Compile Include="İnheritance\Models\Entities\samsung.cs" />
+    <Compile Include="Models\BaseEntity\Base.cs" />
+    <Compile Include="Models\Entities\Iphone.cs" />
+    <Compile Include="Models\Entities\Nokia.cs" />
+    <Compile Include="Models\Entities\samsung.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

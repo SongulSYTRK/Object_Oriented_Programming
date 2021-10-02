@@ -18,10 +18,11 @@ namespace Object_Oriented_Programming.Encapsülation
                 if (value >= 10)
                 {
                     _TotalySeat = value;
-                    MessageBox.Show("Salon open   ");
+                    MessageBox.Show("  Salon open   ");
                 }
                 else
                 {
+                    _TotalySeat = value;
                     MessageBox.Show("Salon closed  ");
                 }
 
@@ -53,7 +54,8 @@ namespace Object_Oriented_Programming.Encapsülation
         {
             this.Totalyseats = totalyseat;
             this.Money = money;
-            MessageBox.Show($"toplam: {this.Totalyseats} \n Money : {this.Money} ");
+            
+            MessageBox.Show($"TotalySeat: {this.Totalyseats} \n Money : {this.Money} \nSalonNo: {this.salonNo = "A"} ");
         }
     }
 }

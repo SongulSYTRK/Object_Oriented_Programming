@@ -26,7 +26,7 @@ namespace PayToBill_StaticMethod
           
             MessageBox.Show($"USER= {txtuser.Text } \nLASTDATE= {Convert.ToDateTime(txtsonödeme.Text)} \n ARRİVALDATE= {DateTime.Now}  \nBİLL AMOUNT= {BillMethods.Gas(Double.Parse(txthours.Text),Double.Parse(txtprice.Text))}");
 
-           // listBox1.Items.Add($"User: {txtuser.Text } \nson ödeme {Convert.ToDateTime(txtsonödeme.Text)} \n fatura geliş tarihi : {DateTime.Now}  \n fatura : {BillMethods.Gas(Double.Parse(txthours.Text), Double.Parse(txtprice.Text))}");
+           // listBox1.Items.Add($"User: {txtuser.Text } ;
             }
 
             else if (txtfatura.Text == ("Electric").ToLower())

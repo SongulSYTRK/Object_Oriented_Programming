@@ -46,13 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Encapsülation\encapsülation.cs">
+    <Compile Include="encapsülationform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Encapsülation\encapsülation.Designer.cs">
-      <DependentUpon>encapsülation.cs</DependentUpon>
+    <Compile Include="encapsülationform.Designer.cs">
+      <DependentUpon>encapsülationform.cs</DependentUpon>
     </Compile>
-    <Compile Include="Encapsülation\Ticket.cs" />
+    <Compile Include="Ticket.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,8 +61,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Encapsülation\encapsülation.resx">
-      <DependentUpon>encapsülation.cs</DependentUpon>
+    <EmbeddedResource Include="encapsülationform.resx">
+      <DependentUpon>encapsülationform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
