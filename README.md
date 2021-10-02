@@ -10,6 +10,10 @@ Object-oriented programming (OOP) is the core ingredient of the .NET framework.O
 instead of rewriting long codes, it can be run with short encodings.
 <br> 2- Dreatly reduces the waste of time.
 <br> 3- If you want to change your project , you dont write all project code . .You can change class code 
+<br> 4- OOP is faster and easier to execute
+<br> 5-OOP provides a clear structure for the programs
+<br> 6- OOP helps to keep the C# code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+<br> 7-OOP makes it possible to create full reusable applications with less code and shorter development time
 
 
 ## File in OOP project
