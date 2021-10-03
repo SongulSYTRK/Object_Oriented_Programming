@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayToBill_StaticMethod", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction_Example2", "İnheritance_Example2\Abstraction_Example2.csproj", "{6CA95D46-A3B9-4CDC-AE19-7EFF8613D909}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstraction", "Abstraction", "{B6E4A1D2-1D1A-4C1A-82D2-41266B732D43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{502AA6A8-21B9-412B-BCDE-37E39694E339} = {B6E4A1D2-1D1A-4C1A-82D2-41266B732D43}
+		{6CA95D46-A3B9-4CDC-AE19-7EFF8613D909} = {B6E4A1D2-1D1A-4C1A-82D2-41266B732D43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BCED687E-18BA-4DE7-877D-355BC4035B71}
