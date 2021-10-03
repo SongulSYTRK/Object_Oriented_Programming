@@ -13,7 +13,7 @@ namespace PayToBill_StaticMethod.Bill_Abstract
         private DateTime _ArrivalDate = DateTime.Now;
         public DateTime ArrivalDate { get => _ArrivalDate; set => _ArrivalDate = value; }
 
-        public abstract double Methods();
+       // public abstract double Methods();  
 
     }
 }

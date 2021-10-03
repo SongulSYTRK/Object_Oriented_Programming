@@ -9,7 +9,7 @@ namespace PayToBill_StaticMethod.Bilss_concrete
 {
     public class ElectricBill : Bills
     {
-        public override double Methods() => BillMethods.ElectricBill(1,2);
+        //public override double Methods() => BillMethods.ElectricBill(1,2);
 
         public ElectricBill(string username, DateTime lastdate, DateTime ArrivalDate, double hour, double unitprice)
         {

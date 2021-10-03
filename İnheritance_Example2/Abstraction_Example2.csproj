@@ -49,6 +49,7 @@
     <Compile Include="Abstract\BasePeople.cs" />
     <Compile Include="Concrete\Lecturer.cs" />
     <Compile Include="Concrete\Student.cs" />
+    <Compile Include="ExamsResult.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

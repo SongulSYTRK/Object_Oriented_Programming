@@ -32,9 +32,9 @@ namespace İnheritance_Example2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Student students = new Student(22555, "Ali");
-
-            MessageBox.Show($"T.C. {students.TC} \nFirstName {students.Name} \nLastNanem {students.Lastname= "Yaman" } \nDepartment: {students.Departmant = "Mühendislik"  }  \nAge : {students.Age = 17} \nWhatDoing {students.WhatIsDoing() }");
+            Student students = new Student(22555, "Ali");   // I taken instance 
+            double Result = ExamsResult.result(20,30,50);   // used static method 
+            MessageBox.Show($"T.C. {students.TC} \nFirstName {students.Name} \nLastNanem {students.Lastname= "Yaman" } \nDepartment: {students.Departmant = "Mühendislik"  }  \nAge : {students.Age = 17} \nWhatDoing {students.WhatIsDoing() } \nExamResult {Result }");   
 
         }
     }

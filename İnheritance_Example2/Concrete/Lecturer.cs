@@ -17,7 +17,7 @@ namespace İnheritance_Example2.Concrete
             this.Lastname = lastname;
             this.Departmant = departmant;
             this.Age = age;
-            MessageBox.Show($"TC:  {TC} \nNAME:  {name} \nlastname: {lastname} \ndepartman: {departmant} \nage: {age} \nWhat doing:  {this.WhatIsDoing()} ");
+            MessageBox.Show($"TC:  {TC} \nNAME:  {name} \nLastname: {lastname} \nDepartman: {departmant} \nage: {age} \nWhat doing:  {this.WhatIsDoing()} \nResult:  {ExamsResult.Accepted(80,70,80)} ");
         }
 
         public override string WhatIsDoing() => "Gives a lesson";
