@@ -22,4 +22,6 @@ instead of rewriting long codes, it can be run with short encodings.
 <br> 3- [İnheritance](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/%C4%B0nheritance)
 <br> 4- [Abstraction](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Abstraction)
 <br> 5- [StaticMethod _BillExample ](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/GetPayToBill)
+<br> 6- [Abstraction _StudentLecturerExample ](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/%C4%B0nheritance_Example2)
+
 
