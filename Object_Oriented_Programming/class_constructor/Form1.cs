@@ -39,5 +39,10 @@ namespace Object_Oriented_Programming
 
             // We wrote messagebox in background 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
