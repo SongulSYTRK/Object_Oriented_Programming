@@ -11,39 +11,39 @@ namespace Repository_Pattern.Repositories.NewFolder1
 {
     public class NokiaRepositoryConcrete : NokiaRepository
     {
-        public override void CreateNokia(Guid Id, string brand, string Model, int unitprice)
+        public override void CreateNokia(int Id, string brand, string Model, int unitprice)
         {
-            Nokia nokia = new Nokia(Id,  brand,  Model,  unitprice);
+            Nokia nokia = new Nokia(Id, brand, Model, unitprice);
         }
 
-        public override void DeleteNokia(Guid id)
+        public override void DeleteNokia(int Id)
         {
-            foreach(Nokia nokia in FakePhoneData.nokias)
+            foreach (Nokia nokia in FakePhoneData.nokias)
             {
-                if (nokia.Id==id)
+                if (nokia.Id == Id)
                 {
-                    FakePhoneData.nokias.Remove(nokia );
+                    FakePhoneData.nokias.Remove(nokia);
                 }
                 else
-               { 
-                 MessageBox.Show("Böyle bir ürün yok ");
-               }
+                {
+                    MessageBox.Show("Böyle bir ürün yok ");
+                }
             }
         }
 
-        
+
         public override List<Nokia> GetNokia()
         {
             return FakePhoneData.nokias.ToList();
 
         }
 
-        public override Nokia GetNokiaById(Guid id)
+        public override Nokia GetNokiaById(int Id)
         {
             Nokia findnokia = new Nokia();
             foreach (Nokia nokia in FakePhoneData.nokias)
             {
-                if (nokia.Id == id)
+                if (nokia.Id == Id)
                 {
                     findnokia = nokia;
                 }
@@ -52,11 +52,11 @@ namespace Repository_Pattern.Repositories.NewFolder1
             return findnokia;
         }
 
-        public override void UpdateNokia(Guid Id, string brand, string Model, int unitprice)
+        public override void UpdateNokia(int Id, string brand, string Model, int unitprice)
         {
-            foreach(Nokia nokia in FakePhoneData.nokias)
+            foreach (Nokia nokia in FakePhoneData.nokias)
             {
-                if(nokia.Id==Id)
+                if (nokia.Id == Id)
                 {
                     Nokia nokiaa = new Nokia(Id, brand, Model, unitprice);
                 }

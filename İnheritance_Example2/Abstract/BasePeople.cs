@@ -15,23 +15,10 @@ namespace İnheritance_Example2.Abstract
         public string Departmant { get; set; }
         public abstract string WhatIsDoing();
 
-        private int _age;
+       
 
-        public int Age
-        {
-            get => _age;
-            set
-            {
-                if (value >= 20)
-                {
-                    _age = value;
-                    MessageBox.Show("he/she can go university");
-                }
-                else
-                {
-                    MessageBox.Show("he/she can'T go university");
-                }
-            }
+        public abstract int Age { get; set; }
+        
         }
     }
-}
+

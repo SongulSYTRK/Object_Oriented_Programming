@@ -11,11 +11,11 @@ namespace Abstraction.Entities.Concrete
     public class Users
     {
        
-        public List<Tellephones<Guid>> GetTakeTelephone { get; set; }
+        public List<Tellephones<int>> GetTakeTelephone { get; set; }
         public Users() // Created constructer
         {
-           
-            GetTakeTelephone = new List<Tellephones<Guid>>();
+
+            GetTakeTelephone = new List<Tellephones<int>>();
         }
         public string UserName { get; set; }
         public string  UserSurname  { get; set; }

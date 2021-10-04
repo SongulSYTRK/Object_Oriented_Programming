@@ -7,14 +7,15 @@ using System.Threading.Tasks;
 
 namespace Abstraction.Entities.Concrete
 {
-   public  class Nokia : Tellephones<Guid>
+   public  class Nokia : Tellephones<int >
     {
-        public override Guid Id { get ; set; }
+       
+        public override int Id { get; set; }
 
         public override string CallSound() => "Iphone kendne özel sese sahiptir";
-        public Nokia (Guid Id, string brand, string Model, int unitprice)
+        public Nokia (int Id, string brand, string Model, int unitprice)
         {
-            this.Id = new Guid();
+            this.Id = Id;
             this.Brand = brand;
             this.Model = Model;
             this.Unitprice = unitprice;

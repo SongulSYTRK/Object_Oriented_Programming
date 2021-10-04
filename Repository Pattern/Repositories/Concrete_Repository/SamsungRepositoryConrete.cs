@@ -11,29 +11,29 @@ namespace Repository_Pattern.Repositories.NewFolder1
 {
     public class SamsungRepositoryConrete : SamsungRepository
     {
-        public override void CreateSamsung(Guid  id , string brand, string Model, int unitprice)
+        public override void CreateSamsung(int Id, string brand, string Model, int unitprice)
         {
-            Samsung samsung = new Samsung(id,  brand, Model, unitprice );
+            Samsung samsung = new Samsung(Id, brand, Model, unitprice);
         }
 
-        public override void DeleteSamsung(Guid id)
+        public override void DeleteSamsung(int Id)
         {
-            foreach(Samsung samsung in FakePhoneData.samsungs)
+            foreach (Samsung samsung in FakePhoneData.samsungs)
             {
-                if (samsung.Id== id )
+                if (samsung.Id == Id)
                 {
                     FakePhoneData.samsungs.Remove(samsung);
                 }
                 else
                 {
-                    MessageBox.Show( "böyle bir ürün yok ");
+                    MessageBox.Show("böyle bir ürün yok ");
                 }
-                
+
 
             }
         }
 
-        public override Samsung GetSamsungIdBy(Guid Id)
+        public override Samsung GetSamsungIdBy(int Id)
         {
             Samsung findsamsung = new Samsung();
             foreach (Samsung samsung in FakePhoneData.samsungs)
@@ -47,19 +47,19 @@ namespace Repository_Pattern.Repositories.NewFolder1
             return findsamsung;
         }
 
-        public override List<Samsung> GetSamsungs( )
+        public override List<Samsung> GetSamsungs()
         {
             return FakePhoneData.samsungs.ToList();
 
         }
 
-        public override void UpdateSamsung(Guid Id, string brand, string Model, int unitprice)
+        public override void UpdateSamsung(int Id, string brand, string Model, int unitprice)
         {
-            foreach(Samsung samsung in FakePhoneData.samsungs)
+            foreach (Samsung samsung in FakePhoneData.samsungs)
             {
-                if (samsung.Id== Id)
+                if (samsung.Id == Id)
                 {
-                    Samsung samsungg = new Samsung(Id, brand, Model,unitprice);
+                    Samsung samsungg = new Samsung(Id, brand, Model, unitprice);
 
                 }
 

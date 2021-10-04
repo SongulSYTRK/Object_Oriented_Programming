@@ -20,6 +20,23 @@ namespace İnheritance_Example2.Concrete
             MessageBox.Show($"TC:  {TC} \nNAME:  {name} \nLastname: {lastname} \nDepartman: {departmant} \nage: {age} \nWhat doing:  {this.WhatIsDoing()} \nResult:  {ExamsResult.Accepted(80,70,80)} ");
         }
 
+        public override int Age 
+        {
+            get => Age;
+            set
+            {
+                if (Age  >= 20)
+                {
+                   
+                    MessageBox.Show("He/She is lecturer");
+                }
+                else
+                {
+                    MessageBox.Show("He/She isn't Lecturer  ");
+                }
+            }
+        }
+
         public override string WhatIsDoing() => "Gives a lesson";
 
 

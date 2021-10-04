@@ -9,13 +9,13 @@ namespace Repository_Pattern.Repositories.Abstract_Repository
 {
     public abstract class SamsungRepository
     {
-        public abstract void CreateSamsung(Guid Id, string brand, string Model, int unitprice);
-        public abstract void UpdateSamsung(Guid Id, string brand , string Model, int unitprice );
-        public abstract void DeleteSamsung(Guid id );
+        public abstract void CreateSamsung(int id, string brand, string Model, int unitprice);
+        public abstract void UpdateSamsung(int id, string brand , string Model, int unitprice );
+        public abstract void DeleteSamsung(int id);
 
         public abstract List<Samsung> GetSamsungs();
 
-        public abstract Samsung GetSamsungIdBy(Guid Id );
+        public abstract Samsung GetSamsungIdBy(int id);
 
     }
 }

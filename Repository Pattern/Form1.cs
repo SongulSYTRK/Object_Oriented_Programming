@@ -32,7 +32,7 @@ namespace Repository_Pattern
 
         private void btncreate_Click(object sender, EventArgs e)
         {
-            iphonerepo.CreateIphone(Guid.NewGuid(), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
+            iphonerepo.CreateIphone(int.Parse (txtıd.Text) , txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
            
                 dataGridView1.DataSource = iphonerepo.GetIphone();
             
@@ -43,7 +43,7 @@ namespace Repository_Pattern
 
         private void Update_Click(object sender, EventArgs e)
         {
-            iphonerepo.UpdateIphone(Guid.NewGuid(), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
+            iphonerepo.UpdateIphone(int.Parse(txtıd.Text), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
 
             dataGridView1.DataSource = iphonerepo.GetIphone();
 
@@ -51,7 +51,7 @@ namespace Repository_Pattern
 
         private void btndelete_Click(object sender, EventArgs e)
         {
-            iphonerepo.DeleteIphone(Guid.NewGuid());
+            iphonerepo.DeleteIphone(int.Parse(txtıd.Text));
 
             dataGridView1.DataSource = iphonerepo.GetIphone();
 
@@ -59,7 +59,7 @@ namespace Repository_Pattern
 
         private void btncreate_2_Click(object sender, EventArgs e)
         {
-            samsungrepo.CreateSamsung(Guid.NewGuid(), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
+            samsungrepo.CreateSamsung(int.Parse(txtıd.Text), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
            
                 dataGridView2.DataSource = samsungrepo.GetSamsungs();
             
@@ -67,21 +67,21 @@ namespace Repository_Pattern
 
         private void btnupdate_2_Click(object sender, EventArgs e)
         {
-            samsungrepo.UpdateSamsung(Guid.NewGuid(), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
+            samsungrepo.UpdateSamsung(int.Parse(txtıd.Text), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
 
             dataGridView2.DataSource = samsungrepo.GetSamsungs();
         }
 
         private void btndelete_2_Click(object sender, EventArgs e)
         {
-            samsungrepo.DeleteSamsung(Guid.NewGuid());
+            samsungrepo.DeleteSamsung(int.Parse(txtıd.Text));
 
             dataGridView2.DataSource = samsungrepo.GetSamsungs();
         }
 
         private void btncreate3_Click(object sender, EventArgs e)
         {
-            nokiarepo.CreateNokia(Guid.NewGuid(), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
+            nokiarepo.CreateNokia(int.Parse(txtıd.Text), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
            
                 dataGridView3.DataSource = nokiarepo.GetNokia();
           
@@ -89,16 +89,21 @@ namespace Repository_Pattern
 
         private void btnUpdate_3_Click(object sender, EventArgs e)
         {
-            nokiarepo.UpdateNokia(Guid.NewGuid(), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
+            nokiarepo.UpdateNokia(int.Parse(txtıd.Text), txtbrand.Text, txtmodel.Text, int.Parse(txtunitPrice.Text));
 
             dataGridView3.DataSource = nokiarepo.GetNokia();
         }
 
         private void BtnDelete_3_Click(object sender, EventArgs e)
         {
-            nokiarepo.DeleteNokia(Guid.NewGuid());
+            nokiarepo.DeleteNokia(int.Parse(txtıd.Text));
 
             dataGridView3.DataSource = nokiarepo.GetNokia();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

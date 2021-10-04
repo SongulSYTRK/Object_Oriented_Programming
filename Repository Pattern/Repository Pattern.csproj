@@ -63,9 +63,9 @@
     <Compile Include="Repositories\Abstract Repository\IphoneRepository.cs" />
     <Compile Include="Repositories\Abstract Repository\NokiaRepository.cs" />
     <Compile Include="Repositories\Abstract Repository\SamsungRepository.cs" />
-    <Compile Include="Repositories\NewFolder1\IphoneRepositoryConcrete.cs" />
-    <Compile Include="Repositories\NewFolder1\NokiaRepositoryConcrete.cs" />
-    <Compile Include="Repositories\NewFolder1\SamsungRepositoryConrete.cs" />
+    <Compile Include="Repositories\Concrete_Repository\IphoneRepositoryConcrete.cs" />
+    <Compile Include="Repositories\Concrete_Repository\NokiaRepositoryConcrete.cs" />
+    <Compile Include="Repositories\Concrete_Repository\SamsungRepositoryConrete.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -31,23 +31,26 @@ namespace Repository_Pattern
         {
             this.label1 = new System.Windows.Forms.Label();
             this.grpcrud = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtbrand = new System.Windows.Forms.TextBox();
-            this.txtmodel = new System.Windows.Forms.TextBox();
-            this.txtunitPrice = new System.Windows.Forms.TextBox();
-            this.btncreate = new System.Windows.Forms.Button();
-            this.Update = new System.Windows.Forms.Button();
+            this.BtnDelete_3 = new System.Windows.Forms.Button();
+            this.btndelete_2 = new System.Windows.Forms.Button();
+            this.btnUpdate_3 = new System.Windows.Forms.Button();
+            this.btncreate3 = new System.Windows.Forms.Button();
+            this.btnupdate_2 = new System.Windows.Forms.Button();
+            this.btncreate_2 = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
+            this.Update = new System.Windows.Forms.Button();
+            this.btncreate = new System.Windows.Forms.Button();
+            this.txtunitPrice = new System.Windows.Forms.TextBox();
+            this.txtmodel = new System.Windows.Forms.TextBox();
+            this.txtbrand = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.btncreate_2 = new System.Windows.Forms.Button();
-            this.btnupdate_2 = new System.Windows.Forms.Button();
-            this.btndelete_2 = new System.Windows.Forms.Button();
-            this.btncreate3 = new System.Windows.Forms.Button();
-            this.btnUpdate_3 = new System.Windows.Forms.Button();
-            this.BtnDelete_3 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtıd = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.grpcrud.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -65,6 +68,9 @@ namespace Repository_Pattern
             // 
             // grpcrud
             // 
+            this.grpcrud.Controls.Add(this.button1);
+            this.grpcrud.Controls.Add(this.txtıd);
+            this.grpcrud.Controls.Add(this.label4);
             this.grpcrud.Controls.Add(this.BtnDelete_3);
             this.grpcrud.Controls.Add(this.btndelete_2);
             this.grpcrud.Controls.Add(this.btnUpdate_3);
@@ -80,61 +86,82 @@ namespace Repository_Pattern
             this.grpcrud.Controls.Add(this.label3);
             this.grpcrud.Controls.Add(this.label2);
             this.grpcrud.Controls.Add(this.label1);
-            this.grpcrud.Location = new System.Drawing.Point(805, 162);
+            this.grpcrud.Location = new System.Drawing.Point(805, 12);
             this.grpcrud.Name = "grpcrud";
-            this.grpcrud.Size = new System.Drawing.Size(392, 375);
+            this.grpcrud.Size = new System.Drawing.Size(387, 525);
             this.grpcrud.TabIndex = 1;
             this.grpcrud.TabStop = false;
             this.grpcrud.Text = "Groupbox";
             // 
-            // label2
+            // BtnDelete_3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 89);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Model";
+            this.BtnDelete_3.Location = new System.Drawing.Point(275, 320);
+            this.BtnDelete_3.Name = "BtnDelete_3";
+            this.BtnDelete_3.Size = new System.Drawing.Size(75, 23);
+            this.BtnDelete_3.TabIndex = 9;
+            this.BtnDelete_3.Text = "Delete_3";
+            this.BtnDelete_3.UseVisualStyleBackColor = true;
+            this.BtnDelete_3.Click += new System.EventHandler(this.BtnDelete_3_Click);
             // 
-            // label3
+            // btndelete_2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 123);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Unitprice";
+            this.btndelete_2.Location = new System.Drawing.Point(168, 320);
+            this.btndelete_2.Name = "btndelete_2";
+            this.btndelete_2.Size = new System.Drawing.Size(75, 23);
+            this.btndelete_2.TabIndex = 9;
+            this.btndelete_2.Text = "Delete_2";
+            this.btndelete_2.UseVisualStyleBackColor = true;
+            this.btndelete_2.Click += new System.EventHandler(this.btndelete_2_Click);
             // 
-            // txtbrand
+            // btnUpdate_3
             // 
-            this.txtbrand.Location = new System.Drawing.Point(100, 45);
-            this.txtbrand.Name = "txtbrand";
-            this.txtbrand.Size = new System.Drawing.Size(100, 22);
-            this.txtbrand.TabIndex = 3;
+            this.btnUpdate_3.Location = new System.Drawing.Point(275, 266);
+            this.btnUpdate_3.Name = "btnUpdate_3";
+            this.btnUpdate_3.Size = new System.Drawing.Size(75, 37);
+            this.btnUpdate_3.TabIndex = 8;
+            this.btnUpdate_3.Text = "Update_3";
+            this.btnUpdate_3.UseVisualStyleBackColor = true;
+            this.btnUpdate_3.Click += new System.EventHandler(this.btnUpdate_3_Click);
             // 
-            // txtmodel
+            // btncreate3
             // 
-            this.txtmodel.Location = new System.Drawing.Point(100, 83);
-            this.txtmodel.Name = "txtmodel";
-            this.txtmodel.Size = new System.Drawing.Size(100, 22);
-            this.txtmodel.TabIndex = 4;
+            this.btncreate3.Location = new System.Drawing.Point(275, 225);
+            this.btncreate3.Name = "btncreate3";
+            this.btncreate3.Size = new System.Drawing.Size(75, 23);
+            this.btncreate3.TabIndex = 7;
+            this.btncreate3.Text = "Create_3";
+            this.btncreate3.UseVisualStyleBackColor = true;
+            this.btncreate3.Click += new System.EventHandler(this.btncreate3_Click);
             // 
-            // txtunitPrice
+            // btnupdate_2
             // 
-            this.txtunitPrice.Location = new System.Drawing.Point(100, 123);
-            this.txtunitPrice.Name = "txtunitPrice";
-            this.txtunitPrice.Size = new System.Drawing.Size(100, 22);
-            this.txtunitPrice.TabIndex = 5;
+            this.btnupdate_2.Location = new System.Drawing.Point(168, 266);
+            this.btnupdate_2.Name = "btnupdate_2";
+            this.btnupdate_2.Size = new System.Drawing.Size(87, 37);
+            this.btnupdate_2.TabIndex = 8;
+            this.btnupdate_2.Text = "Update_2";
+            this.btnupdate_2.UseVisualStyleBackColor = true;
+            this.btnupdate_2.Click += new System.EventHandler(this.btnupdate_2_Click);
             // 
-            // btncreate
+            // btncreate_2
             // 
-            this.btncreate.Location = new System.Drawing.Point(29, 226);
-            this.btncreate.Name = "btncreate";
-            this.btncreate.Size = new System.Drawing.Size(113, 23);
-            this.btncreate.TabIndex = 6;
-            this.btncreate.Text = "Create ";
-            this.btncreate.UseVisualStyleBackColor = true;
-            this.btncreate.Click += new System.EventHandler(this.btncreate_Click);
+            this.btncreate_2.Location = new System.Drawing.Point(168, 225);
+            this.btncreate_2.Name = "btncreate_2";
+            this.btncreate_2.Size = new System.Drawing.Size(75, 23);
+            this.btncreate_2.TabIndex = 7;
+            this.btncreate_2.Text = "Create 2";
+            this.btncreate_2.UseVisualStyleBackColor = true;
+            this.btncreate_2.Click += new System.EventHandler(this.btncreate_2_Click);
+            // 
+            // btndelete
+            // 
+            this.btndelete.Location = new System.Drawing.Point(29, 320);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(113, 23);
+            this.btndelete.TabIndex = 6;
+            this.btndelete.Text = "Delete ";
+            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // Update
             // 
@@ -146,15 +173,54 @@ namespace Repository_Pattern
             this.Update.UseVisualStyleBackColor = true;
             this.Update.Click += new System.EventHandler(this.Update_Click);
             // 
-            // btndelete
+            // btncreate
             // 
-            this.btndelete.Location = new System.Drawing.Point(29, 320);
-            this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(113, 23);
-            this.btndelete.TabIndex = 6;
-            this.btndelete.Text = "Delete ";
-            this.btndelete.UseVisualStyleBackColor = true;
-            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
+            this.btncreate.Location = new System.Drawing.Point(29, 226);
+            this.btncreate.Name = "btncreate";
+            this.btncreate.Size = new System.Drawing.Size(113, 23);
+            this.btncreate.TabIndex = 6;
+            this.btncreate.Text = "Create ";
+            this.btncreate.UseVisualStyleBackColor = true;
+            this.btncreate.Click += new System.EventHandler(this.btncreate_Click);
+            // 
+            // txtunitPrice
+            // 
+            this.txtunitPrice.Location = new System.Drawing.Point(100, 123);
+            this.txtunitPrice.Name = "txtunitPrice";
+            this.txtunitPrice.Size = new System.Drawing.Size(100, 22);
+            this.txtunitPrice.TabIndex = 5;
+            // 
+            // txtmodel
+            // 
+            this.txtmodel.Location = new System.Drawing.Point(100, 83);
+            this.txtmodel.Name = "txtmodel";
+            this.txtmodel.Size = new System.Drawing.Size(100, 22);
+            this.txtmodel.TabIndex = 4;
+            // 
+            // txtbrand
+            // 
+            this.txtbrand.Location = new System.Drawing.Point(100, 45);
+            this.txtbrand.Name = "txtbrand";
+            this.txtbrand.Size = new System.Drawing.Size(100, 22);
+            this.txtbrand.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(26, 123);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 17);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Unitprice";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(26, 89);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Model";
             // 
             // dataGridView1
             // 
@@ -186,65 +252,31 @@ namespace Repository_Pattern
             this.dataGridView3.Size = new System.Drawing.Size(805, 166);
             this.dataGridView3.TabIndex = 7;
             // 
-            // btncreate_2
+            // label4
             // 
-            this.btncreate_2.Location = new System.Drawing.Point(168, 225);
-            this.btncreate_2.Name = "btncreate_2";
-            this.btncreate_2.Size = new System.Drawing.Size(75, 23);
-            this.btncreate_2.TabIndex = 7;
-            this.btncreate_2.Text = "Create 2";
-            this.btncreate_2.UseVisualStyleBackColor = true;
-            this.btncreate_2.Click += new System.EventHandler(this.btncreate_2_Click);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(26, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 17);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "New ID";
             // 
-            // btnupdate_2
+            // txtıd
             // 
-            this.btnupdate_2.Location = new System.Drawing.Point(168, 266);
-            this.btnupdate_2.Name = "btnupdate_2";
-            this.btnupdate_2.Size = new System.Drawing.Size(87, 37);
-            this.btnupdate_2.TabIndex = 8;
-            this.btnupdate_2.Text = "Update_2";
-            this.btnupdate_2.UseVisualStyleBackColor = true;
-            this.btnupdate_2.Click += new System.EventHandler(this.btnupdate_2_Click);
+            this.txtıd.Location = new System.Drawing.Point(100, 16);
+            this.txtıd.Name = "txtıd";
+            this.txtıd.Size = new System.Drawing.Size(100, 22);
+            this.txtıd.TabIndex = 11;
             // 
-            // btndelete_2
+            // button1
             // 
-            this.btndelete_2.Location = new System.Drawing.Point(168, 320);
-            this.btndelete_2.Name = "btndelete_2";
-            this.btndelete_2.Size = new System.Drawing.Size(75, 23);
-            this.btndelete_2.TabIndex = 9;
-            this.btndelete_2.Text = "Delete_2";
-            this.btndelete_2.UseVisualStyleBackColor = true;
-            this.btndelete_2.Click += new System.EventHandler(this.btndelete_2_Click);
-            // 
-            // btncreate3
-            // 
-            this.btncreate3.Location = new System.Drawing.Point(275, 225);
-            this.btncreate3.Name = "btncreate3";
-            this.btncreate3.Size = new System.Drawing.Size(75, 23);
-            this.btncreate3.TabIndex = 7;
-            this.btncreate3.Text = "Create_3";
-            this.btncreate3.UseVisualStyleBackColor = true;
-            this.btncreate3.Click += new System.EventHandler(this.btncreate3_Click);
-            // 
-            // btnUpdate_3
-            // 
-            this.btnUpdate_3.Location = new System.Drawing.Point(275, 273);
-            this.btnUpdate_3.Name = "btnUpdate_3";
-            this.btnUpdate_3.Size = new System.Drawing.Size(91, 23);
-            this.btnUpdate_3.TabIndex = 8;
-            this.btnUpdate_3.Text = "Update_3";
-            this.btnUpdate_3.UseVisualStyleBackColor = true;
-            this.btnUpdate_3.Click += new System.EventHandler(this.btnUpdate_3_Click);
-            // 
-            // BtnDelete_3
-            // 
-            this.BtnDelete_3.Location = new System.Drawing.Point(275, 320);
-            this.BtnDelete_3.Name = "BtnDelete_3";
-            this.BtnDelete_3.Size = new System.Drawing.Size(75, 23);
-            this.BtnDelete_3.TabIndex = 9;
-            this.BtnDelete_3.Text = "Delete_3";
-            this.BtnDelete_3.UseVisualStyleBackColor = true;
-            this.BtnDelete_3.Click += new System.EventHandler(this.BtnDelete_3_Click);
+            this.button1.Location = new System.Drawing.Point(223, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Find ";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -288,6 +320,9 @@ namespace Repository_Pattern
         private System.Windows.Forms.Button btncreate3;
         private System.Windows.Forms.Button btnupdate_2;
         private System.Windows.Forms.Button btncreate_2;
+        private System.Windows.Forms.TextBox txtıd;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
 
