@@ -105,5 +105,10 @@ namespace Repository_Pattern
         {
            
         }
+
+        private void txtıd_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

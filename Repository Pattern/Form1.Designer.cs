@@ -31,6 +31,9 @@ namespace Repository_Pattern
         {
             this.label1 = new System.Windows.Forms.Label();
             this.grpcrud = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtıd = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.BtnDelete_3 = new System.Windows.Forms.Button();
             this.btndelete_2 = new System.Windows.Forms.Button();
             this.btnUpdate_3 = new System.Windows.Forms.Button();
@@ -48,9 +51,6 @@ namespace Repository_Pattern
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtıd = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.grpcrud.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -92,6 +92,33 @@ namespace Repository_Pattern
             this.grpcrud.TabIndex = 1;
             this.grpcrud.TabStop = false;
             this.grpcrud.Text = "Groupbox";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(223, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Find ";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtıd
+            // 
+            this.txtıd.Location = new System.Drawing.Point(100, 16);
+            this.txtıd.Name = "txtıd";
+            this.txtıd.Size = new System.Drawing.Size(100, 22);
+            this.txtıd.TabIndex = 11;
+            this.txtıd.TextChanged += new System.EventHandler(this.txtıd_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(26, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 17);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "New ID";
             // 
             // BtnDelete_3
             // 
@@ -251,32 +278,6 @@ namespace Repository_Pattern
             this.dataGridView3.RowTemplate.Height = 24;
             this.dataGridView3.Size = new System.Drawing.Size(805, 166);
             this.dataGridView3.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(26, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 17);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "New ID";
-            // 
-            // txtıd
-            // 
-            this.txtıd.Location = new System.Drawing.Point(100, 16);
-            this.txtıd.Name = "txtıd";
-            this.txtıd.Size = new System.Drawing.Size(100, 22);
-            this.txtıd.TabIndex = 11;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(223, 15);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Find ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
