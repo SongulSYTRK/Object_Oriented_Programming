@@ -10,10 +10,7 @@ namespace Genres_Movie_RepositoryExample.Repositories.ConcreteRepositories
 {
     public class ConcreteMovie : BaseMovieRepositories
     {
-        public ConcreteMovie()
-        {
-
-        }
+       
         public override void CreateMovie(Movie movie)
         {
             FakeDate.movie.Add(movie);

@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstraction_Examples", "Abs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genres_Movie_RepositoryExample", "Genres_Movie_RepositoryExample\Genres_Movie_RepositoryExample.csproj", "{41D0F60B-D714-4D5C-A005-50E4C467D5B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyMovieTicket_Cinema", "BuyMovieTicket_Cinema\BuyMovieTicket_Cinema.csproj", "{3B37FFD2-FEEB-4A54-8326-3270FA25FF16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{41D0F60B-D714-4D5C-A005-50E4C467D5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41D0F60B-D714-4D5C-A005-50E4C467D5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41D0F60B-D714-4D5C-A005-50E4C467D5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B37FFD2-FEEB-4A54-8326-3270FA25FF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B37FFD2-FEEB-4A54-8326-3270FA25FF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B37FFD2-FEEB-4A54-8326-3270FA25FF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B37FFD2-FEEB-4A54-8326-3270FA25FF16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
