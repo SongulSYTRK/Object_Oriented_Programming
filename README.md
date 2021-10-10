@@ -24,5 +24,5 @@ instead of rewriting long codes, it can be run with short encodings.
 <br> 5- [StaticMethod _BillExample ](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/GetPayToBill)
 <br> 6- [Abstraction _StudentLecturerExample ](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/%C4%B0nheritance_Example2)
 <br> 7- [Genres_Movie_RepositoryExample](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/Genres_Movie_RepositoryExample)
-
+<br> 8- [CinemaTicket_Example](https://github.com/SongulSYTRK/Object_Oriented_Programming/tree/master/BuyMovieTicket_Cinema)
 
