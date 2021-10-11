@@ -17,7 +17,11 @@ namespace Custom_Exception
         {
             this.Text = parametre;
             GetException();
-            GetSendMail();
+           
+        }
+        public HasNumber()
+        {
+
         }
         private void GetException()
         {          
@@ -49,7 +53,7 @@ namespace Custom_Exception
             mail.Attachments.Clear();
 
             SmtpClient mailClient = new SmtpClient();
-            mailClient.Credentials = new System.Net.NetworkCredential("songuslytrk@gmail.com", "şifre");
+            mailClient.Credentials = new System.Net.NetworkCredential("songuslytrk@gmail.com", "Son.9500");
             mailClient.EnableSsl = true;
             mailClient.Host = "smpt.gmail.com";
             mailClient.Port = 587;

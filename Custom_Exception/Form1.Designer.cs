@@ -77,6 +77,7 @@ namespace Custom_Exception
             this.txtVerigirisi.Name = "txtVerigirisi";
             this.txtVerigirisi.Size = new System.Drawing.Size(123, 22);
             this.txtVerigirisi.TabIndex = 6;
+            this.txtVerigirisi.TextChanged += new System.EventHandler(this.txtVerigirisi_TextChanged);
             // 
             // label1
             // 

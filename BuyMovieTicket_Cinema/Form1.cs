@@ -17,6 +17,7 @@ namespace BuyMovieTicket_Cinema
     public partial class Form1 : Form
     {
         List<GetBuyTicket> buyTicket = new List<GetBuyTicket>();
+        TicketRepositories CreateTicket = new TicketRepositories();
         public Form1()
         {
             InitializeComponent();
@@ -69,7 +70,7 @@ namespace BuyMovieTicket_Cinema
                 return;
 
             }
-            TicketRepositories CreateTicket = new TicketRepositories();
+           
 
             buyTicket.Add(CreateTicket.CreateInformation(txtfirstName.Text, txtLastName.Text, (TicketInformation)cmbSalon.SelectedItem)); 
 

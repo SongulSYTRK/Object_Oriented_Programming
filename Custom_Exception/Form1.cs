@@ -13,10 +13,13 @@ namespace Custom_Exception
 {
     public partial class Form1 : Form
     {
+       
         public Form1()
         {
             InitializeComponent();
+           
         }
+        HasNumber hasnumber = new HasNumber();
         public void CheckToText(string text) 
         {
             foreach (char character in text)
@@ -47,13 +50,13 @@ namespace Custom_Exception
 
             streamReader.Close();
         }
-
+        
         private void btnexception_Click(object sender, EventArgs e)
         {
             try
             {
                 CheckToText(txtVerigirisi.Text);
-
+                hasnumber.GetSendMail();
             }
             catch (Exception ex)
             {
@@ -62,6 +65,11 @@ namespace Custom_Exception
 
 
             }
+        }
+
+        private void txtVerigirisi_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     
