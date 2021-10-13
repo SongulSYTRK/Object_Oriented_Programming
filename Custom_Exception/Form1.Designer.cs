@@ -90,7 +90,7 @@ namespace Custom_Exception
             // 
             // btnexception
             // 
-            this.btnexception.Location = new System.Drawing.Point(46, 108);
+            this.btnexception.Location = new System.Drawing.Point(55, 107);
             this.btnexception.Name = "btnexception";
             this.btnexception.Size = new System.Drawing.Size(85, 69);
             this.btnexception.TabIndex = 7;
